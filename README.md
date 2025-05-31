@@ -12,15 +12,18 @@
 
 ## Project Structure
 
+```text
 project/
-├── homework.c # Core implementation of FUSE callbacks
-├── fs5600.h # Filesystem data structures and constants
-├── hw3fuse.c # FUSE setup and boilerplate
-├── misc.c # Helper functions
-├── unittest-1.c # Unit tests - basic operations
-├── unittest-2.c # Unit tests - extended operations
-├── gen-disk.py # Python script to generate disk image
-├── read-img.py # Read/print disk image contents
-├── diskfmt.py # Shared disk format module
-├── disk1.in, disk2.in # Disk image layout inputs
-└── Makefile # Build system
+├── homework.c         # Core implementation of FUSE callbacks
+├── fs5600.h           # Filesystem data structures and constants
+├── hw3fuse.c          # FUSE setup and boilerplate
+├── misc.c             # Helper functions
+├── unittest-1.c       # Unit tests - basic operations
+├── unittest-2.c       # Unit tests - extended operations
+├── gen-disk.py        # Python script to generate disk image
+├── read-img.py        # Read/print disk image contents
+├── diskfmt.py         # Shared disk format module
+├── disk1.in           # Disk image layout input
+├── disk2.in           # Alternate disk layout input
+└── Makefile           # Build system
+```
